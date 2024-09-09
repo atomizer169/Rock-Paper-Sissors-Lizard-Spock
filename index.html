@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet"/>
+    <title>Rock Paper Sissors Lizard Spock</title>
+</head>
+<body>
+    <h1>Rock Paper Sissors Lizard Spock</h1>
+    <h2 class="head1">Choose your option </h2>
+    <h2 class="head2">Computer has chosen</h2>   
+    <div class = container>
+        
+        <div class="player">
+            <p class="player1"> You</p>
+            <img class="img1" src="./images/Player.png" />
+        </div>
+
+        <div class= "result">
+            <h2 class="head3">Select an option</br> from below..</h2>
+        </div>
+
+        <div class="computer">
+            <p class="computer1"> Computer</p>
+            <img class="img2" src="./images/Computer.png" />
+        </div>
+    </div>
+    <div class="parentContainer">    
+        <div class = options>
+            <div class="rock">
+                <img class="btn grow" id="rock" src="./images/Rock.png" />
+            </div>
+            <div class="scissors">
+                <img class="btn" id="scissors" src="./images/Scissors.png" />
+            </div>
+            <div class="paper">
+                <img class="btn" id="paper" src="./images/Paper.png" />
+            </div>
+            <div class="lizard">
+                <img class="btn" id="lizard" src="./images/Lizard.png" />
+            </div>
+            <div class="spock">
+                <img class="btn" id="spock" src="./images/Spock.png" />
+            </div>
+        </div>
+        <div class="options_comp">
+            <div class="comp_sel"></div>
+        </div>
+    </div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="./game.js" charset="UTF-8"></script>
+</body>
+</html>
